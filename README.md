@@ -25,7 +25,7 @@
 
     <!-- Hero Section -->
     <section id="hero">
-        <img src="hero-image.jpg" alt="Shop Hero Image">
+        <img src="https://drive.google.com/file/d/18bbFrbrhOTZoA04baIYshFP4NF8dfZlR/view?usp=drive_link" alt="Shop Hero Image">
         <h2>Discover Amazing Products</h2>
         <p>Shop the latest trends and best deals.</p>
         <a href="#shop-now" class="cta-button">Shop Now</a>
