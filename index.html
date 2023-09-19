@@ -7,6 +7,20 @@
     <link rel="stylesheet" href="styles.css"> <!-- Add your custom CSS file here -->
 </head>
 <body>
+    <h1>Sign Up</h1>
+        <p>Create an account to get started.</p>
+        <form action="signup.php" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Sign Up</button>
+        </form>
     <header>
         <nav>
             <div class="container">
@@ -55,12 +69,9 @@
             </div>
         </div>
     </section>
-<script src = "signup.js"
-    defer></script>
     <section id="contact">
         <div class="container">
             <h2>Contact Us</h2>
-            <p>Sign up </p>
             <form action="#" method="POST">
                 <input type="text" name="name" placeholder="Your Name">
                 <input type="email" name="email" placeholder="Your Email">
@@ -76,4 +87,6 @@
         </div>
     </footer>
 </body>
+<script src = "signup.js"
+    defer></script>    
 </html>
