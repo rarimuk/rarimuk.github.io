@@ -3,79 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ClicknSell - Digital Agriculture</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file for styling -->
+    <title>ClicknSell - Your E-commerce Solution</title>
     <style>
-        body {
-            background-color: #f0f0f0; /* Background color resembling an agricultural page */
+        /* Header Styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navigation {
+            margin-top: 10px;
+        }
+
+        .navigation a {
+            color: #fff;
+            margin: 0 20px;
+            text-decoration: none;
+        }
+
+        /* Signup/Login Styles */
+        .signup-login {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .signup-login a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        /* Review and Contact Styles */
+        .review-section {
+            background-color: #f4f4f4;
+            padding: 40px;
+        }
+
+        .review-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <!-- Logo (Replace with your logo) -->
-        <div class="logo">
-            <img src="logo.png" alt="ClicknSell Logo">
-        </div>
-        
-        <!-- Navigation Menu (Customize links accordingly) -->
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <!-- Body Section -->
-    <section id="body">
-        <!-- Sign Up and Log In Section -->
-        <div id="signup-login">
-            <h2>Join ClicknSell - Digital Agriculture</h2>
-            <p>Sign up or log in to access the best agricultural products.</p>
-            <a href="signup.html" class="cta-button">Sign Up</a>
-            <a href="login.html" class="cta-button">Log In</a>
-        </div>
+<!-- Header Section -->
+<header>
+    <div class="logo">
+        <img src="logo.png" alt="ClicknSell Logo" width="100">
+        ClicknSell
+    </div>
 
-        <!-- Comments and Reviews Section -->
-        <div id="comments">
-            <h2>Customer Reviews</h2>
-            <div class="comment">
-                <p>Excellent platform for buying and selling agricultural produce!</p>
-                <p class="author">- John Doe</p>
-            </div>
-            <div class="comment">
-                <p>Great service and support. Highly recommended!</p>
-                <p class="author">- Jane Smith</p>
-            </div>
+    <div class="navigation">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </div>
+</header>
 
-            <!-- Add more comments here -->
+<!-- Signup and Login Section -->
+<section class="signup-login">
+    <a href="#">Sign Up</a>
+    <span>|</span>
+    <a href="#">Login</a>
+</section>
 
-            <!-- Comment Form (for customers to leave reviews) -->
-            <h3>Leave a Review</h3>
-            <form>
-                <textarea placeholder="Write your review here"></textarea>
-                <button type="submit">Submit</button>
-            </form>
-        </div>
-    </section>
+<!-- Customer Review Section -->
+<section class="review-section">
+    <div class="review-form">
+        <h2>Leave a Review</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
 
-    <!-- Bottom Section (Contact and Footer) -->
-    <section id="bottom">
-        <!-- Contact Section -->
-        <div id="contact">
-            <h2>Contact Us</h2>
-            <p>If you need assistance or have any questions, please don't hesitate to reach out.</p>
-            <a href="contact.html" class="cta-button">Contact Us</a>
-        </div>
+            <label for="review">Review:</label><br>
+            <textarea id="review" name="review" rows="4" required></textarea><br><br>
 
-        <!-- Footer Section -->
-        <footer>
-            <p>&copy; 2023 ClicknSell - Digital Agriculture</p>
-        </footer>
-    </section>
+            <input type="submit" value="Submit Review">
+        </form>
+    </div>
+</section>
+
+<!-- Contact Information Section -->
+<section class="contact-info">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or need assistance, feel free to reach out to our customer support team:</p>
+    <p>Email: support@clicknsell.com</p>
+    <p>Phone: 123-456-7890</p>
+</section>
+
+<!-- Rest of your landing page content goes here -->
+
 </body>
 </html>
