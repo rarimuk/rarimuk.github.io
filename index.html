@@ -16,6 +16,7 @@
         .logo {
             font-size: 24px;
             font-weight: bold;
+            color: #fff;
         }
 
         .navigation {
@@ -25,7 +26,7 @@
         .navigation a {
             color: #fff;
             margin: 0 20px;
-            text-decoration: Italics;
+            text-decoration: none;
         }
 
         /* Signup/Login Styles */
@@ -35,15 +36,25 @@
         }
 
         .signup-login a {
-            color: #333;
+            color: #fff;
             text-decoration: none;
             margin: 0 20px;
         }
 
-        /* Review and Contact Styles */
-        .review-section {
-            background-color: #f4f4f4;
+        /* Product Description Styles */
+        .product-description {
+            background-color: #1a1a2e; /* Dark Blue */
             padding: 40px;
+            text-align: center;
+            color: #fff;
+        }
+
+        /* Review Styles */
+        .review-section {
+            background-color: #1a1a2e; /* Dark Blue */
+            padding: 40px;
+            text-align: center;
+            color: #fff;
         }
 
         .review-form {
@@ -51,9 +62,9 @@
             margin: 0 auto;
         }
 
-        .contact-info {
-            text-align: center;
-            margin-top: 20px;
+        /* Pink Accent Color */
+        .accent-pink {
+            color: #ff6b81;
         }
     </style>
 </head>
@@ -62,8 +73,8 @@
 <!-- Header Section -->
 <header>
     <div class="logo">
-        <img src="logo.png" width="100">
-        ClicknSell
+        <img src="logo.png" alt="ClicknSell Logo" width="100">
+        Clickn<span class="accent-pink">Sell</span>
     </div>
 
     <div class="navigation">
@@ -71,20 +82,29 @@
         <a href="#">Products</a>
         <a href="#">About Us</a>
         <a href="#">Contact</a>
+        <a href="#">Sign Up</a>
+        <a href="#">Login</a>
     </div>
 </header>
 
-<!-- Signup and Login Section -->
-<section class="signup-login">
-    <a href="#">Sign Up</a>
-    <span>|</span>
-    <a href="#">Login</a>
+<!-- Product Description Section -->
+<section class="product-description">
+    <h2>Welcome to Clickn<span class="accent-pink">Sell</span></h2>
+    <p>Clickn<span class="accent-pink">Sell</span> is your trusted online marketplace where you can discover and sell a wide range of products.</p>
+    <p>Our Features:</p>
+    <ul>
+        <li>Easy product listing and management</li>
+        <li>Secure online payments</li>
+        <li>Buyer and seller protection</li>
+        <li>24/7 customer support</li>
+    </ul>
+    <p>Start exploring our platform today and experience a new way to buy and sell online.</p>
 </section>
 
 <!-- Customer Review Section -->
 <section class="review-section">
+    <h2>Customer Reviews</h2>
     <div class="review-form">
-        <h2>Leave a Review</h2>
         <form>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required><br><br>
@@ -95,14 +115,6 @@
             <input type="submit" value="Submit Review">
         </form>
     </div>
-</section>
-
-<!-- Contact Information Section -->
-<section class="contact-info">
-    <h2>Contact Us</h2>
-    <p>If you have any questions or need assistance, feel free to reach out to our customer support team:</p>
-    <p>Email: support@clicknsell.com</p>
-    <p>Phone: +254718350747</p>
 </section>
 
 <!-- Rest of your landing page content goes here -->
